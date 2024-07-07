@@ -1,10 +1,14 @@
-import java.security.Key;
+package org.example;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class FirstUniqueCharacterInTheString {
+    
     public static void main(String[] args) {
 
+        String x = "leetcode";
+        System.out.println(firstUniqChar(x));
 
     }
 
@@ -20,8 +24,16 @@ public class FirstUniqueCharacterInTheString {
             else counter.put(chars[i], 1);
         }
         
-        
-        
+        int index = Integer.MAX_VALUE;
+        for (Map.Entry<Character, Integer> entry : counter.entrySet()) {
+            if(entry.getValue() == 1) {
+                int currentIndex = s.indexOf(entry.getKey());
+                if(currentIndex < index) {
+                    index = currentIndex;
+                }
+            }
+        }
+        return index == Integer.MAX_VALUE ? -1 : index;
     }
 
 }
