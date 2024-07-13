@@ -1,4 +1,4 @@
-package org.example;
+package org.example.string_arrays;
 
 import java.util.HashMap;
 import java.util.Map;

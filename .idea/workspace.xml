@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/ImplementStrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/StringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/DeleteNodeInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/target/classes/org/example/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/target/classes/org/example/ValidPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/FirstUniqueCharacterInTheString.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/FirstUniqueCharacterInTheString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/ImplementStrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/ImplementStrStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/StringToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/ValidAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,35 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.FirstUniqueCharacterInTheString.executor": "Run",
-    "Application.ImplementStrStr.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.StringToInteger.executor": "Run",
-    "Application.T.executor": "Run",
-    "Application.ValidAnagram.executor": "Run",
-    "Application.ValidPalindrome.executor": "Debug",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniqueCharacterInTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementStrStr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -74,18 +78,18 @@
   </component>
   <component name="RunManager" selected="Application.ImplementStrStr">
     <configuration name="FirstUniqueCharacterInTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstUniqueCharacterInTheString" />
+      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.FirstUniqueCharacterInTheString" />
       <module name="LeetCodeExercises" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ImplementStrStr" />
+      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ImplementStrStr" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.string_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="StringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StringToInteger" />
+      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.StringToInteger" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.string_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ValidAnagram" />
+      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ValidAnagram" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.string_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ValidPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ValidPalindrome" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.string_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,7 +166,9 @@
       <workItem from="1720513010549" duration="2257000" />
       <workItem from="1720516876381" duration="63000" />
       <workItem from="1720604815220" duration="3999000" />
-      <workItem from="1720687378193" duration="1226000" />
+      <workItem from="1720687378193" duration="1576000" />
+      <workItem from="1720775841942" duration="1575000" />
+      <workItem from="1720864160783" duration="730000" />
     </task>
     <servers />
   </component>
@@ -173,12 +179,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/ValidPalindrome.java</url>
+          <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/ValidPalindrome.java</url>
           <line>27</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/StringToInteger.java</url>
+          <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/StringToInteger.java</url>
           <line>25</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>

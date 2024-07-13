@@ -1,4 +1,4 @@
-package org.example;
+package org.example.string_arrays;
 
 import java.security.Key;
 import java.util.HashMap;
