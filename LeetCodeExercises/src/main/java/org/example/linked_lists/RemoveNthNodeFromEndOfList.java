@@ -2,15 +2,18 @@ package org.example.linked_lists;
 
 public class RemoveNthNodeFromEndOfList {
 
-    
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
 
 
     // https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/
 
     public static void main(String[] args) {
-
-        ListNode head = new ListNode(1, new ListNode(2, null));
-        removeNthFromEnd(head, 2);
         
     }
 

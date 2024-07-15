@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/RemoveNthNodeFromEndOfList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,8 @@
     "Application.FirstUniqueCharacterInTheString.executor": "Run",
     "Application.ImplementStrStr.executor": "Run",
     "Application.Main.executor": "Debug",
-    "Application.RemoveNthNodeFromEndOfList.executor": "Run",
+    "Application.RemoveNthNodeFromEndOfList.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Debug",
     "Application.StringToInteger.executor": "Run",
     "Application.T.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
@@ -71,7 +74,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromEndOfList">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ImplementStrStr" />
       <module name="LeetCodeExercises" />
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.StringToInteger" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linked_lists.ReverseLinkedList" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.string_arrays.*" />
+          <option name="PATTERN" value="org.example.linked_lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ValidAnagram" />
+    <configuration name="StringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.StringToInteger" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.ImplementStrStr" />
         <item itemvalue="Application.StringToInteger" />
         <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ValidAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,8 @@
       <workItem from="1720687378193" duration="1576000" />
       <workItem from="1720775841942" duration="1575000" />
       <workItem from="1720864160783" duration="1615000" />
-      <workItem from="1720965238567" duration="1701000" />
+      <workItem from="1720965238567" duration="3009000" />
+      <workItem from="1721038672533" duration="2024000" />
     </task>
     <servers />
   </component>
@@ -190,12 +194,13 @@
           <line>25</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/RemoveNthNodeFromEndOfList.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="head" />
+        <watch expression="newHead" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
