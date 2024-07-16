@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-    </list>
+    <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +40,7 @@
     "Application.ImplementStrStr.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.RemoveNthNodeFromEndOfList.executor": "Debug",
-    "Application.ReverseLinkedList.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Run",
     "Application.StringToInteger.executor": "Run",
     "Application.T.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
@@ -174,7 +169,7 @@
       <workItem from="1720775841942" duration="1575000" />
       <workItem from="1720864160783" duration="1615000" />
       <workItem from="1720965238567" duration="3009000" />
-      <workItem from="1721038672533" duration="2024000" />
+      <workItem from="1721038672533" duration="2339000" />
     </task>
     <servers />
   </component>
