@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="" />
+    <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/PalindromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/DeleteNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/DeleteNodeInLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/MergeTwoSortedLists.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +45,7 @@
     "Application.FirstUniqueCharacterInTheString.executor": "Run",
     "Application.ImplementStrStr.executor": "Run",
     "Application.Main.executor": "Debug",
+    "Application.PalindromLinkedList.executor": "Run",
     "Application.RemoveNthNodeFromEndOfList.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.StringToInteger.executor": "Run",
@@ -69,13 +76,26 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
+  <component name="RunManager" selected="Application.PalindromLinkedList">
     <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ImplementStrStr" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.string_arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linked_lists.PalindromLinkedList" />
+      <module name="LeetCodeExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.linked_lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.string_arrays.ValidPalindrome" />
-      <module name="LeetCodeExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.string_arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromLinkedList" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.ImplementStrStr" />
         <item itemvalue="Application.StringToInteger" />
-        <item itemvalue="Application.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +177,8 @@
       <workItem from="1720864160783" duration="1615000" />
       <workItem from="1720965238567" duration="3009000" />
       <workItem from="1721038672533" duration="2339000" />
+      <workItem from="1721119085151" duration="1424000" />
+      <workItem from="1721213067847" duration="822000" />
     </task>
     <servers />
   </component>
