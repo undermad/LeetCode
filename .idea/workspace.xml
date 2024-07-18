@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d114d6f5-58ea-4df7-a421-274349112f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/PalindromLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/LinkedListCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/DeleteNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/DeleteNodeInLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/MergeTwoSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,38 +36,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.FirstUniqueCharacterInTheString.executor": "Run",
-    "Application.ImplementStrStr.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.PalindromLinkedList.executor": "Run",
-    "Application.RemoveNthNodeFromEndOfList.executor": "Debug",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.StringToInteger.executor": "Run",
-    "Application.T.executor": "Run",
-    "Application.ValidAnagram.executor": "Run",
-    "Application.ValidPalindrome.executor": "Debug",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniqueCharacterInTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementStrStr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PalindromLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveNthNodeFromEndOfList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -178,7 +175,8 @@
       <workItem from="1720965238567" duration="3009000" />
       <workItem from="1721038672533" duration="2339000" />
       <workItem from="1721119085151" duration="1424000" />
-      <workItem from="1721213067847" duration="822000" />
+      <workItem from="1721213067847" duration="1186000" />
+      <workItem from="1721296882586" duration="365000" />
     </task>
     <servers />
   </component>
@@ -197,6 +195,14 @@
           <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/string_arrays/StringToInteger.java</url>
           <line>25</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCodeExercises/src/main/java/org/example/linked_lists/PalindromLinkedList.java</url>
+          <line>16</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
